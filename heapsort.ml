@@ -98,4 +98,4 @@ let heap_to_list hp =
 let heapsort lst =
   heap_to_list (heap_from_list lst)
 
-(* vim:set ts=2 sw=2 et: *)
+(* vim:set ts=2 sts=2 sw=2 et: *)
