@@ -23,7 +23,7 @@ let rec __heaptree_add tr no dp j =
 
 let rec __heaptree_replace tr z =
   match tr with
-  | Node (_, Empty, Empty) -> 
+  | Node (_, Empty, Empty) ->
       Node(z, Empty, Empty)
   | Node (_, (Node (j, l, r) as n), Empty) ->
       if z >= j then
