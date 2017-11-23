@@ -1,3 +1,7 @@
+(* Copyright © 2005 Jakub Wilk <jwilk@jwilk.net>
+ * SPDX-License-Identifier: MIT
+ *)
+
 type 'a tree = Empty | Node of 'a * 'a tree * 'a tree
 
 type 'a heap = { size : int; depth: int; tree : 'a tree }
